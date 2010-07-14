@@ -1,0 +1,12 @@
+body{background:#fff;font-family:Arial;margin:0px;padding:0px;}
+a{text-decoration:none;color:#888;}
+a:hover{text-decoration:none;color:#221914;}
+ul{list-style:none;}
+#box{width:916px;margin:80px auto auto;}
+#menu{float:left;width:206px;font-size:11pt;}
+#list{width:120px;margin:0px;padding-left:50px;list-style-image:url(images/glist.gif);}
+#list li{padding-top:8px;}
+.current{list-style-image:url(images/list.gif);}
+#subul{float:left;margin:0px;padding:0 0 8px 15px;width:100px;
+	list-style-image:url(images/glist.gif);}
+#content{float:left;width:710px;height:400px;background:#888;}
