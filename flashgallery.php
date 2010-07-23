@@ -73,7 +73,7 @@ function ReadFolderDirectory($dir)
                   if ($sub != "." && $sub != ".." && $sub != "Thumb.db" && array_search($sub, $exclude_files)===false) 
                    {
                    	$ext = substr($sub, strrpos($sub, ".")+1);
-                    if(is_file($dir."/".$sub) && array_search($ext, $allowed_formats)!==false )  $listDir[] = $dir."/".$sub; 
+                    if(is_file($dir."/".$sub) && array_search($ext, $allowed_formats)!==false )  $listDir[] = array($dir."/".urlencode($sub),$sub); 
                     elseif(is_dir($dir."/".$sub))  ReadFolderDirectory($dir."/".$sub); 
                    } 
                 } 
@@ -95,12 +95,12 @@ $directory=dirname($directory);
 
 foreach ($listDir as $val) 
 {
-	$title = substr(strrchr($val, '/'), 1);
-	$title=encoding($title);
-	$val=encoding($val);
-	
+	$title = substr(strrchr($val[1], '/'), 1);
+	//$title=$title;
+	//$val=encoding($val);
+	//$val= urlencode($title);
 	print '
-	<pic src="'.'http://'.$directory.'/'.$val.'" title="'.$title.'" />'; 
+	<pic src="'.'http://'.$directory.'/'.$val[0].'" title="'.$val[1].'" />'; 
 }
 
 print '
