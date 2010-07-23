@@ -19,7 +19,7 @@ thumb_over_color="999999"
 text="on"
 fullscreen_icon="on"
 slideshow_icon="off"
-slideshow_autostart="off"
-slideshow_delay="3"
+slideshow_autostart="on"
+slideshow_delay="8"
 
 />
