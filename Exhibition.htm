@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>eds</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script language="javascript" type="text/javascript" src="swfobject.js" ></script>
+</head>
+<body>
+	<div id="box">
+		<div id="menu">
+			<ul id="list">
+				<li><a href="home.htm">Home</a></li>
+				<li><a href="about.htm">About</a></li>
+				<li style="background:none; padding-left:0px;"><span class="current">Project</span>	
+					<ul id="subul">
+						<li style="background:none; padding-left:0px;"><span class="current">three-dimensional</span>
+							<ul id="subul2">
+								<li>Roadshow</li>
+								<li><a href="Event.htm">Event</a></li>
+								<li class="current">Exhibition</li>
+								<li><a href="Business.htm">Business space</a></li>
+								<li><a href="Scene.htm">Scene picture</a></li>
+							</ul>
+						</li>
+						<li><a href="graphic.htm">graphic design</a></li>
+						<li><a href="photography.htm">photography</a></li>
+					</ul>
+				</li>
+				<li><a href="advantage.htm">Advantage</a></li>
+				<li><a href="contact.htm">Contact</a></li>	
+			</ul>
+		</div>
+		<div id="content">
+			<!-- Script that embeds gallery. -->
+<script language="javascript" type="text/javascript">
+var so = new SWFObject("flashgallery.swf", "content", "730", "500", "8"); // Location of SWF file. You can change gallery width and height here (using pixels or percents).
+so.addParam("quality", "high");
+so.addParam("allowFullScreen", "true");
+so.addParam("wmode", "transparent");
+so.addVariable("content_path","Exhibition"); // Location of a folder with JPG and PNG files (relative to php script).
+so.addVariable("color_path","default.xml"); // Location of XML file with settings.
+so.addVariable("script_path","flashgallery.php"); // Location of PHP script.
+so.write("content");
+</script>
+		</div>
+		<div class="clear">	
+		</div>
+		<div id="bgplayer">
+			<object type="application/x-shockwave-flash" data="dewplayer.swf?mp3=mp3/bg.mp3&amp;autoplay=1&amp;autoreplay=1" width="200" height="20" id="dewplayer"><param name="wmode" value="transparent" /><param name="movie" value="dewplayer.swf?mp3=mp3/bg.mp3&amp;autoplay=1&amp;autoreplay=1" /></object>
+		</div>
+	</div>
+</body>
+	
+</html>
