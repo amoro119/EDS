@@ -3,16 +3,17 @@ a{text-decoration:none;color:#888;}
 a:hover{text-decoration:none;color:#221914;}
 ul{list-style:none;}
 #box{width:916px;margin:80px auto auto;}
-#menu{float:left;width:206px;font-size:11pt;background:url("images/left_bg.jpg") no-repeat 0 0;height:400px;}
+#menu{float:left;width:206px;font-size:11pt;background:url("images/left_bg.gif") no-repeat 0 0;height:400px;}
 #list{width:120px;margin:50px 0 0 0px;padding-left:35px;}
-#list li{background:url("images/glist.gif") no-repeat 0 50%; padding-left:10px;margin-top:8px;}
+#list li{background:url("images/glist.gif") no-repeat 0 50%; padding-left:10px;margin-top:5px;}
 #list li.current{background:url("images/list.gif") no-repeat 0 50%;}
 #list li span.current{background:url("images/list.gif") no-repeat 0 50%;height:20px;padding-left:10px;}
 #subul{margin:0px;padding:0 0 8px 0;width:130px;font-size:10pt}
 #subul li{background:none}
 #subul2{margin:0px;padding:0 0 0 0;width:130px;font-size:9pt}
 #subul2 li{background:none;margin-top:2px}
-#content{float:left;width:710px;height:400px;background:#fff;}
+#content{float:left;width:710px;height:400px;background:#fff;color:#888;}
+#content h1{font-family:simhei;font-size:12pt;}
 #content p{text-indent:33px;font-family:simhei;}
 #bgplayer{margin-left:35px;margin-top:20px}
 .clear{clear:both;}
