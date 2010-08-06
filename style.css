@@ -13,7 +13,7 @@ ul{list-style:none;}
 #subul2{margin:0px;padding:0 0 0 0;width:130px;font-size:9pt}
 #subul2 li{background:none;margin-top:2px}
 #content{float:left;width:710px;height:400px;background:#fff;color:#888;}
-#content h1{font-family:simhei;font-size:17px;padding-bottom:50px;}
+#content h1{font-family:simhei;font-size:17px;padding-bottom:10px;}
 #content p{text-indent:33px;font-family:simhei;font-size:14px;}
 #bgplayer{margin-left:35px;margin-top:20px}
 .clear{clear:both;}
